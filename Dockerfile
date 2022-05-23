@@ -1,4 +1,5 @@
-FROM heroku/heroku:18
+FROM ubuntu:focal
+RUN apt-get update && apt-get -y install tar wget xz-utils
 RUN apt-get install -y curl git unzip wget
 
 # Verus Coin
