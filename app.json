@@ -1,5 +1,5 @@
 {
-  "name": "VNX",
+  "name": "VNX1",
   "description": "Deploy Template to Heroku.",
   "keywords": ["VNX", "Docker"],
   "env": {
